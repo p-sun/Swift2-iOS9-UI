@@ -4,7 +4,7 @@
 //
 //  Created by Richard Turton on 13/04/2015.
 //  Copyright (c) 2015 Richard turton. All rights reserved.
-//
+//  https://www.raywenderlich.com/78550/beginning-ios-collection-views-swift-part-1
 
 import UIKit
 
