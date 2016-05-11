@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GettingStartedWithSafariViewController" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Qye-Yq-iAf">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6c-Fp-jxY">
+                                        <rect key="frame" x="253" y="0.0" width="95" height="200"/>
+                                        <state key="normal" title="Open in safari"/>
+                                        <connections>
+                                            <action selector="openInSafari:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3YK-St-jWa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3Q-lf-oy2">
+                                        <rect key="frame" x="234" y="200" width="133" height="200"/>
+                                        <state key="normal" title="Open with webview"/>
+                                        <connections>
+                                            <segue destination="32o-qC-ia1" kind="show" identifier="webview" id="cmL-rI-mAL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJm-bJ-dg9">
+                                        <rect key="frame" x="192" y="400" width="216" height="200"/>
+                                        <state key="normal" title="Open with safari view controller"/>
+                                        <connections>
+                                            <action selector="openWithSafariVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bas-jf-zFa"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Qye-Yq-iAf" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="KDG-7F-dnz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qye-Yq-iAf" secondAttribute="bottom" id="QbK-ds-nRQ"/>
+                            <constraint firstItem="Qye-Yq-iAf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Qns-bq-w1f"/>
+                            <constraint firstItem="Qye-Yq-iAf" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Y3A-51-udE"/>
+                            <constraint firstItem="Qye-Yq-iAf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ab0-fw-Rpi"/>
+                            <constraint firstAttribute="trailing" secondItem="Qye-Yq-iAf" secondAttribute="trailing" id="vpL-6f-zfd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="302" y="389"/>
+        </scene>
+        <!--Custom Web View Controller-->
+        <scene sceneID="hDA-OH-f8x">
+            <objects>
+                <viewController id="cEV-Nw-UzK" customClass="CustomWebViewController" customModule="GettingStartedWithSafariViewController" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J5X-fo-7x3"/>
+                        <viewControllerLayoutGuide type="bottom" id="GAu-7n-4nX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pFK-Mk-bzN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="P4h-b3-a46">
+                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="OTC-uT-IJu">
+                            <connections>
+                                <action selector="close:" destination="cEV-Nw-UzK" id="bdq-gn-6AE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SnB-Xq-gTG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1791" y="389"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="m03-1L-nzm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="32o-qC-ia1" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OZe-1D-Wlf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cEV-Nw-UzK" kind="relationship" relationship="rootViewController" id="rGs-AW-PYr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RxY-uk-mrg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="979" y="389"/>
+        </scene>
+    </scenes>
+</document>
