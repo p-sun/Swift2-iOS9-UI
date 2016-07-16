@@ -1,0 +1,34 @@
+# OS X
+.DS_Store
+
+# Xcode
+*.swp
+*.lock
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+profile
+
+# idea
+.idea
+
+xcuserdata
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+Temporary*Folder
+*~.nib
+
+# Build generated
+build/
+DerivedData
+
+# Objective-C/Swift specific
+*.hmap
+*.ipa
