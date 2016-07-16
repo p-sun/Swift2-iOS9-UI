@@ -29,8 +29,8 @@ class ViewController: UIViewController {
     // Make button taller and resize header with animation.
 
     @IBOutlet weak var makeThisTallerHeight: NSLayoutConstraint!
+    
     @IBAction func makeThisTaller(sender: AnyObject) {
-        
         UIView.animateWithDuration(0.3) {
             self.tableView.beginUpdates()
             self.makeThisTallerHeight.constant += 20
