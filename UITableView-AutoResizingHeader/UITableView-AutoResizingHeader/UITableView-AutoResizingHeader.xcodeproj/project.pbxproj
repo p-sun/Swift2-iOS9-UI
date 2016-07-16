@@ -101,8 +101,8 @@
 			children = (
 				9BA41D4F1D39EE3400FF2CAA /* AppDelegate.swift */,
 				9BA41D511D39EE3400FF2CAA /* ViewController.swift */,
-				9BA41D531D39EE3400FF2CAA /* Main.storyboard */,
 				9BA41D7D1D39F27900FF2CAA /* Extensions.swift */,
+				9BA41D531D39EE3400FF2CAA /* Main.storyboard */,
 				9BA41D561D39EE3400FF2CAA /* Assets.xcassets */,
 				9BA41D581D39EE3400FF2CAA /* LaunchScreen.storyboard */,
 				9BA41D5B1D39EE3400FF2CAA /* Info.plist */,
