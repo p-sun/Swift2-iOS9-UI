@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BA41D501D39EE3400FF2CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA41D4F1D39EE3400FF2CAA /* AppDelegate.swift */; };
+		9BA41D521D39EE3400FF2CAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA41D511D39EE3400FF2CAA /* ViewController.swift */; };
+		9BA41D551D39EE3400FF2CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA41D531D39EE3400FF2CAA /* Main.storyboard */; };
+		9BA41D571D39EE3400FF2CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA41D561D39EE3400FF2CAA /* Assets.xcassets */; };
+		9BA41D5A1D39EE3400FF2CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA41D581D39EE3400FF2CAA /* LaunchScreen.storyboard */; };
+		9BA41D651D39EE3500FF2CAA /* UITableView_AutoResizingHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA41D641D39EE3500FF2CAA /* UITableView_AutoResizingHeaderTests.swift */; };
+		9BA41D701D39EE3500FF2CAA /* UITableView_AutoResizingHeaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA41D6F1D39EE3500FF2CAA /* UITableView_AutoResizingHeaderUITests.swift */; };
+		9BA41D7E1D39F27900FF2CAA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA41D7D1D39F27900FF2CAA /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BA41D611D39EE3500FF2CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA41D441D39EE3400FF2CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BA41D4B1D39EE3400FF2CAA;
+			remoteInfo = "UITableView-AutoResizingHeader";
+		};
+		9BA41D6C1D39EE3500FF2CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA41D441D39EE3400FF2CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BA41D4B1D39EE3400FF2CAA;
+			remoteInfo = "UITableView-AutoResizingHeader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BA41D4C1D39EE3400FF2CAA /* UITableView-AutoResizingHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableView-AutoResizingHeader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA41D4F1D39EE3400FF2CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BA41D511D39EE3400FF2CAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BA41D541D39EE3400FF2CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BA41D561D39EE3400FF2CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BA41D591D39EE3400FF2CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BA41D5B1D39EE3400FF2CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA41D601D39EE3500FF2CAA /* UITableView-AutoResizingHeaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView-AutoResizingHeaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA41D641D39EE3500FF2CAA /* UITableView_AutoResizingHeaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView_AutoResizingHeaderTests.swift; sourceTree = "<group>"; };
+		9BA41D661D39EE3500FF2CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA41D6B1D39EE3500FF2CAA /* UITableView-AutoResizingHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView-AutoResizingHeaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA41D6F1D39EE3500FF2CAA /* UITableView_AutoResizingHeaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView_AutoResizingHeaderUITests.swift; sourceTree = "<group>"; };
+		9BA41D711D39EE3500FF2CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA41D7D1D39F27900FF2CAA /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BA41D491D39EE3400FF2CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA41D5D1D39EE3500FF2CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA41D681D39EE3500FF2CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BA41D431D39EE3400FF2CAA = {
+			isa = PBXGroup;
+			children = (
+				9BA41D4E1D39EE3400FF2CAA /* UITableView-AutoResizingHeader */,
+				9BA41D631D39EE3500FF2CAA /* UITableView-AutoResizingHeaderTests */,
+				9BA41D6E1D39EE3500FF2CAA /* UITableView-AutoResizingHeaderUITests */,
+				9BA41D4D1D39EE3400FF2CAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BA41D4D1D39EE3400FF2CAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BA41D4C1D39EE3400FF2CAA /* UITableView-AutoResizingHeader.app */,
+				9BA41D601D39EE3500FF2CAA /* UITableView-AutoResizingHeaderTests.xctest */,
+				9BA41D6B1D39EE3500FF2CAA /* UITableView-AutoResizingHeaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BA41D4E1D39EE3400FF2CAA /* UITableView-AutoResizingHeader */ = {
+			isa = PBXGroup;
+			children = (
+				9BA41D4F1D39EE3400FF2CAA /* AppDelegate.swift */,
+				9BA41D511D39EE3400FF2CAA /* ViewController.swift */,
+				9BA41D531D39EE3400FF2CAA /* Main.storyboard */,
+				9BA41D7D1D39F27900FF2CAA /* Extensions.swift */,
+				9BA41D561D39EE3400FF2CAA /* Assets.xcassets */,
+				9BA41D581D39EE3400FF2CAA /* LaunchScreen.storyboard */,
+				9BA41D5B1D39EE3400FF2CAA /* Info.plist */,
+			);
+			path = "UITableView-AutoResizingHeader";
+			sourceTree = "<group>";
+		};
+		9BA41D631D39EE3500FF2CAA /* UITableView-AutoResizingHeaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BA41D641D39EE3500FF2CAA /* UITableView_AutoResizingHeaderTests.swift */,
+				9BA41D661D39EE3500FF2CAA /* Info.plist */,
+			);
+			path = "UITableView-AutoResizingHeaderTests";
+			sourceTree = "<group>";
+		};
+		9BA41D6E1D39EE3500FF2CAA /* UITableView-AutoResizingHeaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BA41D6F1D39EE3500FF2CAA /* UITableView_AutoResizingHeaderUITests.swift */,
+				9BA41D711D39EE3500FF2CAA /* Info.plist */,
+			);
+			path = "UITableView-AutoResizingHeaderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BA41D4B1D39EE3400FF2CAA /* UITableView-AutoResizingHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA41D741D39EE3500FF2CAA /* Build configuration list for PBXNativeTarget "UITableView-AutoResizingHeader" */;
+			buildPhases = (
+				9BA41D481D39EE3400FF2CAA /* Sources */,
+				9BA41D491D39EE3400FF2CAA /* Frameworks */,
+				9BA41D4A1D39EE3400FF2CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITableView-AutoResizingHeader";
+			productName = "UITableView-AutoResizingHeader";
+			productReference = 9BA41D4C1D39EE3400FF2CAA /* UITableView-AutoResizingHeader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BA41D5F1D39EE3500FF2CAA /* UITableView-AutoResizingHeaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA41D771D39EE3500FF2CAA /* Build configuration list for PBXNativeTarget "UITableView-AutoResizingHeaderTests" */;
+			buildPhases = (
+				9BA41D5C1D39EE3500FF2CAA /* Sources */,
+				9BA41D5D1D39EE3500FF2CAA /* Frameworks */,
+				9BA41D5E1D39EE3500FF2CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BA41D621D39EE3500FF2CAA /* PBXTargetDependency */,
+			);
+			name = "UITableView-AutoResizingHeaderTests";
+			productName = "UITableView-AutoResizingHeaderTests";
+			productReference = 9BA41D601D39EE3500FF2CAA /* UITableView-AutoResizingHeaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BA41D6A1D39EE3500FF2CAA /* UITableView-AutoResizingHeaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA41D7A1D39EE3500FF2CAA /* Build configuration list for PBXNativeTarget "UITableView-AutoResizingHeaderUITests" */;
+			buildPhases = (
+				9BA41D671D39EE3500FF2CAA /* Sources */,
+				9BA41D681D39EE3500FF2CAA /* Frameworks */,
+				9BA41D691D39EE3500FF2CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BA41D6D1D39EE3500FF2CAA /* PBXTargetDependency */,
+			);
+			name = "UITableView-AutoResizingHeaderUITests";
+			productName = "UITableView-AutoResizingHeaderUITests";
+			productReference = 9BA41D6B1D39EE3500FF2CAA /* UITableView-AutoResizingHeaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BA41D441D39EE3400FF2CAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Paige Sun";
+				TargetAttributes = {
+					9BA41D4B1D39EE3400FF2CAA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9BA41D5F1D39EE3500FF2CAA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9BA41D4B1D39EE3400FF2CAA;
+					};
+					9BA41D6A1D39EE3500FF2CAA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9BA41D4B1D39EE3400FF2CAA;
+					};
+				};
+			};
+			buildConfigurationList = 9BA41D471D39EE3400FF2CAA /* Build configuration list for PBXProject "UITableView-AutoResizingHeader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BA41D431D39EE3400FF2CAA;
+			productRefGroup = 9BA41D4D1D39EE3400FF2CAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BA41D4B1D39EE3400FF2CAA /* UITableView-AutoResizingHeader */,
+				9BA41D5F1D39EE3500FF2CAA /* UITableView-AutoResizingHeaderTests */,
+				9BA41D6A1D39EE3500FF2CAA /* UITableView-AutoResizingHeaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BA41D4A1D39EE3400FF2CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA41D5A1D39EE3400FF2CAA /* LaunchScreen.storyboard in Resources */,
+				9BA41D571D39EE3400FF2CAA /* Assets.xcassets in Resources */,
+				9BA41D551D39EE3400FF2CAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA41D5E1D39EE3500FF2CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA41D691D39EE3500FF2CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BA41D481D39EE3400FF2CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA41D521D39EE3400FF2CAA /* ViewController.swift in Sources */,
+				9BA41D7E1D39F27900FF2CAA /* Extensions.swift in Sources */,
+				9BA41D501D39EE3400FF2CAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA41D5C1D39EE3500FF2CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA41D651D39EE3500FF2CAA /* UITableView_AutoResizingHeaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA41D671D39EE3500FF2CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA41D701D39EE3500FF2CAA /* UITableView_AutoResizingHeaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BA41D621D39EE3500FF2CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BA41D4B1D39EE3400FF2CAA /* UITableView-AutoResizingHeader */;
+			targetProxy = 9BA41D611D39EE3500FF2CAA /* PBXContainerItemProxy */;
+		};
+		9BA41D6D1D39EE3500FF2CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BA41D4B1D39EE3400FF2CAA /* UITableView-AutoResizingHeader */;
+			targetProxy = 9BA41D6C1D39EE3500FF2CAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BA41D531D39EE3400FF2CAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA41D541D39EE3400FF2CAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BA41D581D39EE3400FF2CAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA41D591D39EE3400FF2CAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BA41D721D39EE3500FF2CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BA41D731D39EE3500FF2CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BA41D751D39EE3500FF2CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UITableView-AutoResizingHeader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paigesun.UITableView-AutoResizingHeader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9BA41D761D39EE3500FF2CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UITableView-AutoResizingHeader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paigesun.UITableView-AutoResizingHeader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9BA41D781D39EE3500FF2CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UITableView-AutoResizingHeaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paigesun.UITableView-AutoResizingHeaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableView-AutoResizingHeader.app/UITableView-AutoResizingHeader";
+			};
+			name = Debug;
+		};
+		9BA41D791D39EE3500FF2CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UITableView-AutoResizingHeaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paigesun.UITableView-AutoResizingHeaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableView-AutoResizingHeader.app/UITableView-AutoResizingHeader";
+			};
+			name = Release;
+		};
+		9BA41D7B1D39EE3500FF2CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UITableView-AutoResizingHeaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paigesun.UITableView-AutoResizingHeaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UITableView-AutoResizingHeader";
+			};
+			name = Debug;
+		};
+		9BA41D7C1D39EE3500FF2CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UITableView-AutoResizingHeaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paigesun.UITableView-AutoResizingHeaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UITableView-AutoResizingHeader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BA41D471D39EE3400FF2CAA /* Build configuration list for PBXProject "UITableView-AutoResizingHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA41D721D39EE3500FF2CAA /* Debug */,
+				9BA41D731D39EE3500FF2CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA41D741D39EE3500FF2CAA /* Build configuration list for PBXNativeTarget "UITableView-AutoResizingHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA41D751D39EE3500FF2CAA /* Debug */,
+				9BA41D761D39EE3500FF2CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BA41D771D39EE3500FF2CAA /* Build configuration list for PBXNativeTarget "UITableView-AutoResizingHeaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA41D781D39EE3500FF2CAA /* Debug */,
+				9BA41D791D39EE3500FF2CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BA41D7A1D39EE3500FF2CAA /* Build configuration list for PBXNativeTarget "UITableView-AutoResizingHeaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA41D7B1D39EE3500FF2CAA /* Debug */,
+				9BA41D7C1D39EE3500FF2CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BA41D441D39EE3400FF2CAA /* Project object */;
+}

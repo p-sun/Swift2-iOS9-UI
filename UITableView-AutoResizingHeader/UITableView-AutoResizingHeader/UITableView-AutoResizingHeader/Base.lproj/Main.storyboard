@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UITableView_AutoResizingHeader" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vgW-SG-12T">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="5Hp-ld-Pas">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="273"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auto Resizing Header" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6c3-5G-QXn">
+                                            <rect key="frame" x="30" y="30" width="540" height="21.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This header can dynamically resize according to its contents." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZ4-Vw-QbB">
+                                            <rect key="frame" x="30" y="71.5" width="540" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nsb-KW-eNm">
+                                            <rect key="frame" x="30" y="112" width="300" height="34"/>
+                                            <color key="backgroundColor" red="0.55735187552412524" green="0.82061298076923084" blue="0.50167511599112269" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="34" id="bjk-YR-Btw"/>
+                                                <constraint firstAttribute="width" constant="300" id="rdU-8q-vRo"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <state key="normal" title="Add More Text">
+                                                <color key="titleColor" red="0.95233203629394736" green="0.95686274510000002" blue="0.93284053816083201" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="addMoreText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ex1-YG-MbJ"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyi-dw-9Kb">
+                                            <rect key="frame" x="30" y="166" width="300" height="34"/>
+                                            <color key="backgroundColor" red="0.8206129808" green="0.76355254370022962" blue="0.35544366608232747" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="34" id="SV6-RP-bgP"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <state key="normal" title="Make This Taller (Animated)">
+                                                <color key="titleColor" red="0.95233203629999996" green="0.95686274510000002" blue="0.93284053820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="makeThisTaller:" destination="BYZ-38-t0r" eventType="touchUpInside" id="61O-X2-lOf"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="Nsb-KW-eNm" firstAttribute="top" secondItem="bZ4-Vw-QbB" secondAttribute="bottom" constant="20" id="9uV-NP-ik0"/>
+                                        <constraint firstItem="6c3-5G-QXn" firstAttribute="leading" secondItem="5Hp-ld-Pas" secondAttribute="leading" constant="30" id="FGZ-8a-IpU"/>
+                                        <constraint firstAttribute="trailing" secondItem="6c3-5G-QXn" secondAttribute="trailing" constant="30" id="OQt-gS-AhX"/>
+                                        <constraint firstItem="Nsb-KW-eNm" firstAttribute="leading" secondItem="6c3-5G-QXn" secondAttribute="leading" id="SmH-op-YGd"/>
+                                        <constraint firstItem="bZ4-Vw-QbB" firstAttribute="top" secondItem="6c3-5G-QXn" secondAttribute="bottom" constant="20" id="Y6B-lG-Ln5"/>
+                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="vyi-dw-9Kb" secondAttribute="bottom" constant="30" id="gfg-bw-FFA"/>
+                                        <constraint firstItem="vyi-dw-9Kb" firstAttribute="top" secondItem="Nsb-KW-eNm" secondAttribute="bottom" constant="20" id="ibc-pW-uhs"/>
+                                        <constraint firstItem="6c3-5G-QXn" firstAttribute="top" secondItem="5Hp-ld-Pas" secondAttribute="top" constant="30" id="k6s-GB-gqP"/>
+                                        <constraint firstItem="bZ4-Vw-QbB" firstAttribute="trailing" secondItem="6c3-5G-QXn" secondAttribute="trailing" id="taq-nu-Fab"/>
+                                        <constraint firstItem="vyi-dw-9Kb" firstAttribute="width" secondItem="Nsb-KW-eNm" secondAttribute="width" id="ttw-Yx-Bl0"/>
+                                        <constraint firstItem="vyi-dw-9Kb" firstAttribute="leading" secondItem="6c3-5G-QXn" secondAttribute="leading" id="wct-iZ-9SA"/>
+                                        <constraint firstItem="bZ4-Vw-QbB" firstAttribute="leading" secondItem="6c3-5G-QXn" secondAttribute="leading" id="wm8-U2-Prz"/>
+                                    </constraints>
+                                </view>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="jzv-5J-gvQ">
+                                        <rect key="frame" x="0.0" y="301" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jzv-5J-gvQ" id="JQP-Lk-RiU">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vgW-SG-12T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4Yh-3b-oAh"/>
+                            <constraint firstItem="vgW-SG-12T" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="iNe-3t-AfO"/>
+                            <constraint firstAttribute="trailing" secondItem="vgW-SG-12T" secondAttribute="trailing" id="sNS-Da-aFY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vgW-SG-12T" secondAttribute="bottom" id="yar-3G-2Dw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="bZ4-Vw-QbB" id="CRR-U5-vfP"/>
+                        <outlet property="makeThisTallerHeight" destination="SV6-RP-bgP" id="LBU-UN-Bi1"/>
+                        <outlet property="tableView" destination="vgW-SG-12T" id="WOH-9n-rnr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="353"/>
+        </scene>
+    </scenes>
+</document>
