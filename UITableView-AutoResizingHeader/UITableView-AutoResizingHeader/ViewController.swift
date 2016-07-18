@@ -31,12 +31,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var makeThisTallerHeight: NSLayoutConstraint!
     
     @IBAction func makeThisTaller(sender: AnyObject) {
+        // Animated
         UIView.animateWithDuration(0.3) {
             self.tableView.beginUpdates()
             self.makeThisTallerHeight.constant += 20
             self.sizeHeaderToFit(self.tableView)
             self.tableView.endUpdates()
         }
+        
+        // Non-Animated
+//        self.makeThisTallerHeight.constant += 20
+//        self.sizeHeaderToFit(self.tableView)
     }
     
 }
