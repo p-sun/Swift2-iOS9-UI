@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B6DD8A61D582B570029EB6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6DD8A51D582B570029EB6B /* AppDelegate.swift */; };
+		9B6DD8A81D582B570029EB6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6DD8A71D582B570029EB6B /* ViewController.swift */; };
+		9B6DD8AB1D582B570029EB6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6DD8A91D582B570029EB6B /* Main.storyboard */; };
+		9B6DD8AD1D582B570029EB6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6DD8AC1D582B570029EB6B /* Assets.xcassets */; };
+		9B6DD8B01D582B570029EB6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6DD8AE1D582B570029EB6B /* LaunchScreen.storyboard */; };
+		9B6DD8BB1D582B570029EB6B /* UITableView_CompressableHeadersEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6DD8BA1D582B570029EB6B /* UITableView_CompressableHeadersEffectTests.swift */; };
+		9B6DD8C61D582B570029EB6B /* UITableView_CompressableHeadersEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6DD8C51D582B570029EB6B /* UITableView_CompressableHeadersEffectUITests.swift */; };
+		9B6DD8D41D582BF80029EB6B /* lake.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 9B6DD8D31D582BF80029EB6B /* lake.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B6DD8B71D582B570029EB6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B6DD89A1D582B570029EB6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6DD8A11D582B570029EB6B;
+			remoteInfo = "UITableView-CompressableHeadersEffect";
+		};
+		9B6DD8C21D582B570029EB6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B6DD89A1D582B570029EB6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6DD8A11D582B570029EB6B;
+			remoteInfo = "UITableView-CompressableHeadersEffect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B6DD8A21D582B570029EB6B /* UITableView-CompressableHeadersEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableView-CompressableHeadersEffect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6DD8A51D582B570029EB6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B6DD8A71D582B570029EB6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B6DD8AA1D582B570029EB6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B6DD8AC1D582B570029EB6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B6DD8AF1D582B570029EB6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B6DD8B11D582B570029EB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6DD8B61D582B570029EB6B /* UITableView-CompressableHeadersEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView-CompressableHeadersEffectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6DD8BA1D582B570029EB6B /* UITableView_CompressableHeadersEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView_CompressableHeadersEffectTests.swift; sourceTree = "<group>"; };
+		9B6DD8BC1D582B570029EB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6DD8C11D582B570029EB6B /* UITableView-CompressableHeadersEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView-CompressableHeadersEffectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6DD8C51D582B570029EB6B /* UITableView_CompressableHeadersEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView_CompressableHeadersEffectUITests.swift; sourceTree = "<group>"; };
+		9B6DD8C71D582B570029EB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6DD8D31D582BF80029EB6B /* lake.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lake.JPG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B6DD89F1D582B570029EB6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6DD8B31D582B570029EB6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6DD8BE1D582B570029EB6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B6DD8991D582B570029EB6B = {
+			isa = PBXGroup;
+			children = (
+				9B6DD8A41D582B570029EB6B /* UITableView-CompressableHeadersEffect */,
+				9B6DD8B91D582B570029EB6B /* UITableView-CompressableHeadersEffectTests */,
+				9B6DD8C41D582B570029EB6B /* UITableView-CompressableHeadersEffectUITests */,
+				9B6DD8A31D582B570029EB6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B6DD8A31D582B570029EB6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6DD8A21D582B570029EB6B /* UITableView-CompressableHeadersEffect.app */,
+				9B6DD8B61D582B570029EB6B /* UITableView-CompressableHeadersEffectTests.xctest */,
+				9B6DD8C11D582B570029EB6B /* UITableView-CompressableHeadersEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B6DD8A41D582B570029EB6B /* UITableView-CompressableHeadersEffect */ = {
+			isa = PBXGroup;
+			children = (
+				9B6DD8A51D582B570029EB6B /* AppDelegate.swift */,
+				9B6DD8A71D582B570029EB6B /* ViewController.swift */,
+				9B6DD8A91D582B570029EB6B /* Main.storyboard */,
+				9B6DD8AC1D582B570029EB6B /* Assets.xcassets */,
+				9B6DD8AE1D582B570029EB6B /* LaunchScreen.storyboard */,
+				9B6DD8B11D582B570029EB6B /* Info.plist */,
+				9B6DD8D31D582BF80029EB6B /* lake.JPG */,
+			);
+			path = "UITableView-CompressableHeadersEffect";
+			sourceTree = "<group>";
+		};
+		9B6DD8B91D582B570029EB6B /* UITableView-CompressableHeadersEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B6DD8BA1D582B570029EB6B /* UITableView_CompressableHeadersEffectTests.swift */,
+				9B6DD8BC1D582B570029EB6B /* Info.plist */,
+			);
+			path = "UITableView-CompressableHeadersEffectTests";
+			sourceTree = "<group>";
+		};
+		9B6DD8C41D582B570029EB6B /* UITableView-CompressableHeadersEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B6DD8C51D582B570029EB6B /* UITableView_CompressableHeadersEffectUITests.swift */,
+				9B6DD8C71D582B570029EB6B /* Info.plist */,
+			);
+			path = "UITableView-CompressableHeadersEffectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B6DD8A11D582B570029EB6B /* UITableView-CompressableHeadersEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6DD8CA1D582B570029EB6B /* Build configuration list for PBXNativeTarget "UITableView-CompressableHeadersEffect" */;
+			buildPhases = (
+				9B6DD89E1D582B570029EB6B /* Sources */,
+				9B6DD89F1D582B570029EB6B /* Frameworks */,
+				9B6DD8A01D582B570029EB6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITableView-CompressableHeadersEffect";
+			productName = "UITableView-CompressableHeadersEffect";
+			productReference = 9B6DD8A21D582B570029EB6B /* UITableView-CompressableHeadersEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B6DD8B51D582B570029EB6B /* UITableView-CompressableHeadersEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6DD8CD1D582B570029EB6B /* Build configuration list for PBXNativeTarget "UITableView-CompressableHeadersEffectTests" */;
+			buildPhases = (
+				9B6DD8B21D582B570029EB6B /* Sources */,
+				9B6DD8B31D582B570029EB6B /* Frameworks */,
+				9B6DD8B41D582B570029EB6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B6DD8B81D582B570029EB6B /* PBXTargetDependency */,
+			);
+			name = "UITableView-CompressableHeadersEffectTests";
+			productName = "UITableView-CompressableHeadersEffectTests";
+			productReference = 9B6DD8B61D582B570029EB6B /* UITableView-CompressableHeadersEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B6DD8C01D582B570029EB6B /* UITableView-CompressableHeadersEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6DD8D01D582B570029EB6B /* Build configuration list for PBXNativeTarget "UITableView-CompressableHeadersEffectUITests" */;
+			buildPhases = (
+				9B6DD8BD1D582B570029EB6B /* Sources */,
+				9B6DD8BE1D582B570029EB6B /* Frameworks */,
+				9B6DD8BF1D582B570029EB6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B6DD8C31D582B570029EB6B /* PBXTargetDependency */,
+			);
+			name = "UITableView-CompressableHeadersEffectUITests";
+			productName = "UITableView-CompressableHeadersEffectUITests";
+			productReference = 9B6DD8C11D582B570029EB6B /* UITableView-CompressableHeadersEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B6DD89A1D582B570029EB6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Paige Sun";
+				TargetAttributes = {
+					9B6DD8A11D582B570029EB6B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9B6DD8B51D582B570029EB6B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9B6DD8A11D582B570029EB6B;
+					};
+					9B6DD8C01D582B570029EB6B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9B6DD8A11D582B570029EB6B;
+					};
+				};
+			};
+			buildConfigurationList = 9B6DD89D1D582B570029EB6B /* Build configuration list for PBXProject "UITableView-CompressableHeadersEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B6DD8991D582B570029EB6B;
+			productRefGroup = 9B6DD8A31D582B570029EB6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B6DD8A11D582B570029EB6B /* UITableView-CompressableHeadersEffect */,
+				9B6DD8B51D582B570029EB6B /* UITableView-CompressableHeadersEffectTests */,
+				9B6DD8C01D582B570029EB6B /* UITableView-CompressableHeadersEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B6DD8A01D582B570029EB6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6DD8D41D582BF80029EB6B /* lake.JPG in Resources */,
+				9B6DD8B01D582B570029EB6B /* LaunchScreen.storyboard in Resources */,
+				9B6DD8AD1D582B570029EB6B /* Assets.xcassets in Resources */,
+				9B6DD8AB1D582B570029EB6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6DD8B41D582B570029EB6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6DD8BF1D582B570029EB6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B6DD89E1D582B570029EB6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6DD8A81D582B570029EB6B /* ViewController.swift in Sources */,
+				9B6DD8A61D582B570029EB6B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6DD8B21D582B570029EB6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6DD8BB1D582B570029EB6B /* UITableView_CompressableHeadersEffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6DD8BD1D582B570029EB6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6DD8C61D582B570029EB6B /* UITableView_CompressableHeadersEffectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B6DD8B81D582B570029EB6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B6DD8A11D582B570029EB6B /* UITableView-CompressableHeadersEffect */;
+			targetProxy = 9B6DD8B71D582B570029EB6B /* PBXContainerItemProxy */;
+		};
+		9B6DD8C31D582B570029EB6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B6DD8A11D582B570029EB6B /* UITableView-CompressableHeadersEffect */;
+			targetProxy = 9B6DD8C21D582B570029EB6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B6DD8A91D582B570029EB6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6DD8AA1D582B570029EB6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B6DD8AE1D582B570029EB6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6DD8AF1D582B570029EB6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B6DD8C81D582B570029EB6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B6DD8C91D582B570029EB6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B6DD8CB1D582B570029EB6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UITableView-CompressableHeadersEffect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paigesun.UITableView-CompressableHeadersEffect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B6DD8CC1D582B570029EB6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UITableView-CompressableHeadersEffect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paigesun.UITableView-CompressableHeadersEffect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9B6DD8CE1D582B570029EB6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UITableView-CompressableHeadersEffectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paigesun.UITableView-CompressableHeadersEffectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableView-CompressableHeadersEffect.app/UITableView-CompressableHeadersEffect";
+			};
+			name = Debug;
+		};
+		9B6DD8CF1D582B570029EB6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UITableView-CompressableHeadersEffectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paigesun.UITableView-CompressableHeadersEffectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableView-CompressableHeadersEffect.app/UITableView-CompressableHeadersEffect";
+			};
+			name = Release;
+		};
+		9B6DD8D11D582B570029EB6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UITableView-CompressableHeadersEffectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paigesun.UITableView-CompressableHeadersEffectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UITableView-CompressableHeadersEffect";
+			};
+			name = Debug;
+		};
+		9B6DD8D21D582B570029EB6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UITableView-CompressableHeadersEffectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paigesun.UITableView-CompressableHeadersEffectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UITableView-CompressableHeadersEffect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B6DD89D1D582B570029EB6B /* Build configuration list for PBXProject "UITableView-CompressableHeadersEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6DD8C81D582B570029EB6B /* Debug */,
+				9B6DD8C91D582B570029EB6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6DD8CA1D582B570029EB6B /* Build configuration list for PBXNativeTarget "UITableView-CompressableHeadersEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6DD8CB1D582B570029EB6B /* Debug */,
+				9B6DD8CC1D582B570029EB6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B6DD8CD1D582B570029EB6B /* Build configuration list for PBXNativeTarget "UITableView-CompressableHeadersEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6DD8CE1D582B570029EB6B /* Debug */,
+				9B6DD8CF1D582B570029EB6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B6DD8D01D582B570029EB6B /* Build configuration list for PBXNativeTarget "UITableView-CompressableHeadersEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6DD8D11D582B570029EB6B /* Debug */,
+				9B6DD8D21D582B570029EB6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B6DD89A1D582B570029EB6B /* Project object */;
+}
