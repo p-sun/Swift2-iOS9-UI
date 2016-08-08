@@ -12,7 +12,27 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     // MARK: - IBOutlets
     @IBOutlet weak var tableView: UITableView!
-        
+    @IBOutlet weak var headerHeight: NSLayoutConstraint!
+
+    // MARK - Resizing Header
+
+    let headerMinHeight: CGFloat = 140.0
+    let headerMaxHeight: CGFloat = 300.0
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        headerHeight.constant = headerMaxHeight
+    }
+    
+    func scrollViewDidScroll(scrollView: UIScrollView) {
+        //print("offset: \(scrollView.contentOffset.y)")
+        if scrollView.contentOffset.y > headerMaxHeight-headerMinHeight {
+            headerHeight.constant = headerMinHeight
+        } else if scrollView.contentOffset.y > 0 {
+            headerHeight.constant = headerMaxHeight-scrollView.contentOffset.y
+        }
+    }
+    
     // MARK: - Table view data source
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -20,7 +40,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 17
+        return 27
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
