@@ -36,17 +36,17 @@
 
 /* Begin PBXFileReference section */
 		9B4995A01D5FB4AE00ED6470 /* lakecrop.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lakecrop.JPG; sourceTree = "<group>"; };
-		9B6DD8A21D582B570029EB6B /* UITableView-CompressableHeadersEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableView-CompressableHeadersEffect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6DD8A21D582B570029EB6B /* UITableView-CompressibleHeadersEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableView-CompressibleHeadersEffect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6DD8A51D582B570029EB6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B6DD8A71D582B570029EB6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B6DD8AA1D582B570029EB6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B6DD8AC1D582B570029EB6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B6DD8AF1D582B570029EB6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B6DD8B11D582B570029EB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B6DD8B61D582B570029EB6B /* UITableView-CompressableHeadersEffect.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView-CompressableHeadersEffect.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6DD8B61D582B570029EB6B /* UITableView-CompressibleHeadersEffect.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView-CompressibleHeadersEffect.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6DD8BA1D582B570029EB6B /* UITableView_CompressableHeadersEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView_CompressableHeadersEffectTests.swift; sourceTree = "<group>"; };
 		9B6DD8BC1D582B570029EB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B6DD8C11D582B570029EB6B /* UITableView-CompressableHeadersEffect.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView-CompressableHeadersEffect.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6DD8C11D582B570029EB6B /* UITableView-CompressibleHeadersEffect.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView-CompressibleHeadersEffect.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6DD8C51D582B570029EB6B /* UITableView_CompressableHeadersEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView_CompressableHeadersEffectUITests.swift; sourceTree = "<group>"; };
 		9B6DD8C71D582B570029EB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		9B6DD8A31D582B570029EB6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B6DD8A21D582B570029EB6B /* UITableView-CompressableHeadersEffect.app */,
-				9B6DD8B61D582B570029EB6B /* UITableView-CompressableHeadersEffect.xctest */,
-				9B6DD8C11D582B570029EB6B /* UITableView-CompressableHeadersEffect.xctest */,
+				9B6DD8A21D582B570029EB6B /* UITableView-CompressibleHeadersEffect.app */,
+				9B6DD8B61D582B570029EB6B /* UITableView-CompressibleHeadersEffect.xctest */,
+				9B6DD8C11D582B570029EB6B /* UITableView-CompressibleHeadersEffect.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9B6DD8A11D582B570029EB6B /* UITableView-CompressableHeadersEffect */ = {
+		9B6DD8A11D582B570029EB6B /* UITableView-CompressibleHeadersEffect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B6DD8CA1D582B570029EB6B /* Build configuration list for PBXNativeTarget "UITableView-CompressableHeadersEffect" */;
+			buildConfigurationList = 9B6DD8CA1D582B570029EB6B /* Build configuration list for PBXNativeTarget "UITableView-CompressibleHeadersEffect" */;
 			buildPhases = (
 				9B6DD89E1D582B570029EB6B /* Sources */,
 				9B6DD89F1D582B570029EB6B /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = "UITableView-CompressableHeadersEffect";
+			name = "UITableView-CompressibleHeadersEffect";
 			productName = "UITableView-CompressableHeadersEffect";
-			productReference = 9B6DD8A21D582B570029EB6B /* UITableView-CompressableHeadersEffect.app */;
+			productReference = 9B6DD8A21D582B570029EB6B /* UITableView-CompressibleHeadersEffect.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9B6DD8B51D582B570029EB6B /* UITableView-CompressableHeadersEffectTests */ = {
+		9B6DD8B51D582B570029EB6B /* UITableView-CompressibleHeadersEffectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B6DD8CD1D582B570029EB6B /* Build configuration list for PBXNativeTarget "UITableView-CompressableHeadersEffectTests" */;
+			buildConfigurationList = 9B6DD8CD1D582B570029EB6B /* Build configuration list for PBXNativeTarget "UITableView-CompressibleHeadersEffectTests" */;
 			buildPhases = (
 				9B6DD8B21D582B570029EB6B /* Sources */,
 				9B6DD8B31D582B570029EB6B /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				9B6DD8B81D582B570029EB6B /* PBXTargetDependency */,
 			);
-			name = "UITableView-CompressableHeadersEffectTests";
+			name = "UITableView-CompressibleHeadersEffectTests";
 			productName = "UITableView-CompressableHeadersEffectTests";
-			productReference = 9B6DD8B61D582B570029EB6B /* UITableView-CompressableHeadersEffect.xctest */;
+			productReference = 9B6DD8B61D582B570029EB6B /* UITableView-CompressibleHeadersEffect.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9B6DD8C01D582B570029EB6B /* UITableView-CompressableHeadersEffectUITests */ = {
+		9B6DD8C01D582B570029EB6B /* UITableView-CompressibleHeadersEffectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B6DD8D01D582B570029EB6B /* Build configuration list for PBXNativeTarget "UITableView-CompressableHeadersEffectUITests" */;
+			buildConfigurationList = 9B6DD8D01D582B570029EB6B /* Build configuration list for PBXNativeTarget "UITableView-CompressibleHeadersEffectUITests" */;
 			buildPhases = (
 				9B6DD8BD1D582B570029EB6B /* Sources */,
 				9B6DD8BE1D582B570029EB6B /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				9B6DD8C31D582B570029EB6B /* PBXTargetDependency */,
 			);
-			name = "UITableView-CompressableHeadersEffectUITests";
+			name = "UITableView-CompressibleHeadersEffectUITests";
 			productName = "UITableView-CompressableHeadersEffectUITests";
-			productReference = 9B6DD8C11D582B570029EB6B /* UITableView-CompressableHeadersEffect.xctest */;
+			productReference = 9B6DD8C11D582B570029EB6B /* UITableView-CompressibleHeadersEffect.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9B6DD89D1D582B570029EB6B /* Build configuration list for PBXProject "UITableView-CompressableHeadersEffect" */;
+			buildConfigurationList = 9B6DD89D1D582B570029EB6B /* Build configuration list for PBXProject "UITableView-CompressibleHeadersEffect" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9B6DD8A11D582B570029EB6B /* UITableView-CompressableHeadersEffect */,
-				9B6DD8B51D582B570029EB6B /* UITableView-CompressableHeadersEffectTests */,
-				9B6DD8C01D582B570029EB6B /* UITableView-CompressableHeadersEffectUITests */,
+				9B6DD8A11D582B570029EB6B /* UITableView-CompressibleHeadersEffect */,
+				9B6DD8B51D582B570029EB6B /* UITableView-CompressibleHeadersEffectTests */,
+				9B6DD8C01D582B570029EB6B /* UITableView-CompressibleHeadersEffectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		9B6DD8B81D582B570029EB6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9B6DD8A11D582B570029EB6B /* UITableView-CompressableHeadersEffect */;
+			target = 9B6DD8A11D582B570029EB6B /* UITableView-CompressibleHeadersEffect */;
 			targetProxy = 9B6DD8B71D582B570029EB6B /* PBXContainerItemProxy */;
 		};
 		9B6DD8C31D582B570029EB6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9B6DD8A11D582B570029EB6B /* UITableView-CompressableHeadersEffect */;
+			target = 9B6DD8A11D582B570029EB6B /* UITableView-CompressibleHeadersEffect */;
 			targetProxy = 9B6DD8C21D582B570029EB6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -408,7 +408,7 @@
 				INFOPLIST_FILE = "UITableView-CompressableHeadersEffect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paigesun.UITableView-CompressableHeadersEffect";
-				PRODUCT_NAME = "UITableView-CompressableHeadersEffect";
+				PRODUCT_NAME = "UITableView-CompressibleHeadersEffect";
 			};
 			name = Debug;
 		};
@@ -419,7 +419,7 @@
 				INFOPLIST_FILE = "UITableView-CompressableHeadersEffect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paigesun.UITableView-CompressableHeadersEffect";
-				PRODUCT_NAME = "UITableView-CompressableHeadersEffect";
+				PRODUCT_NAME = "UITableView-CompressibleHeadersEffect";
 			};
 			name = Release;
 		};
@@ -430,8 +430,8 @@
 				INFOPLIST_FILE = "UITableView-CompressableHeadersEffectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paigesun.UITableView-CompressableHeadersEffectTests";
-				PRODUCT_NAME = "UITableView-CompressableHeadersEffect";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableView-CompressableHeadersEffect.app/UITableView-CompressableHeadersEffect";
+				PRODUCT_NAME = "UITableView-CompressibleHeadersEffect";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableView-CompressibleHeadersEffect.app/UITableView-CompressibleHeadersEffect";
 			};
 			name = Debug;
 		};
@@ -442,8 +442,8 @@
 				INFOPLIST_FILE = "UITableView-CompressableHeadersEffectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paigesun.UITableView-CompressableHeadersEffectTests";
-				PRODUCT_NAME = "UITableView-CompressableHeadersEffect";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableView-CompressableHeadersEffect.app/UITableView-CompressableHeadersEffect";
+				PRODUCT_NAME = "UITableView-CompressibleHeadersEffect";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableView-CompressibleHeadersEffect.app/UITableView-CompressibleHeadersEffect";
 			};
 			name = Release;
 		};
@@ -453,7 +453,7 @@
 				INFOPLIST_FILE = "UITableView-CompressableHeadersEffectUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paigesun.UITableView-CompressableHeadersEffectUITests";
-				PRODUCT_NAME = "UITableView-CompressableHeadersEffect";
+				PRODUCT_NAME = "UITableView-CompressibleHeadersEffect";
 				TEST_TARGET_NAME = "UITableView-CompressableHeadersEffect";
 			};
 			name = Debug;
@@ -464,7 +464,7 @@
 				INFOPLIST_FILE = "UITableView-CompressableHeadersEffectUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paigesun.UITableView-CompressableHeadersEffectUITests";
-				PRODUCT_NAME = "UITableView-CompressableHeadersEffect";
+				PRODUCT_NAME = "UITableView-CompressibleHeadersEffect";
 				TEST_TARGET_NAME = "UITableView-CompressableHeadersEffect";
 			};
 			name = Release;
@@ -472,7 +472,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9B6DD89D1D582B570029EB6B /* Build configuration list for PBXProject "UITableView-CompressableHeadersEffect" */ = {
+		9B6DD89D1D582B570029EB6B /* Build configuration list for PBXProject "UITableView-CompressibleHeadersEffect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B6DD8C81D582B570029EB6B /* Debug */,
@@ -481,7 +481,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B6DD8CA1D582B570029EB6B /* Build configuration list for PBXNativeTarget "UITableView-CompressableHeadersEffect" */ = {
+		9B6DD8CA1D582B570029EB6B /* Build configuration list for PBXNativeTarget "UITableView-CompressibleHeadersEffect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B6DD8CB1D582B570029EB6B /* Debug */,
@@ -490,7 +490,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B6DD8CD1D582B570029EB6B /* Build configuration list for PBXNativeTarget "UITableView-CompressableHeadersEffectTests" */ = {
+		9B6DD8CD1D582B570029EB6B /* Build configuration list for PBXNativeTarget "UITableView-CompressibleHeadersEffectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B6DD8CE1D582B570029EB6B /* Debug */,
@@ -499,7 +499,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B6DD8D01D582B570029EB6B /* Build configuration list for PBXNativeTarget "UITableView-CompressableHeadersEffectUITests" */ = {
+		9B6DD8D01D582B570029EB6B /* Build configuration list for PBXNativeTarget "UITableView-CompressibleHeadersEffectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B6DD8D11D582B570029EB6B /* Debug */,

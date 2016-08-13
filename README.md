@@ -15,3 +15,6 @@ A tableview where the bottom of the screen below the rows with content is filled
 <p align="left">
   <img src="/_images/AutoResizingTable.png" width="350"/>
 </p>
+
+## UITableView-CompressibleHeaderEffect
+A tableview where the header has a minimum height and a maximum height. Dragging the table allows for a beautiful parallax effect where the header grows and shrinks according to how far down the table is dragged.
