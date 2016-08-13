@@ -43,10 +43,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func updateHeaderView() {
-        var headerHeight = headerMinHeight
-        if tableView.contentOffset.y < -headerMinHeight {
-            headerHeight = -tableView.contentOffset.y
-        }
+        let didScrollPastMinHeaderHeight = tableView.contentOffset.y < -headerMinHeight
+        let headerHeight = didScrollPastMinHeaderHeight ? -tableView.contentOffset.y : headerMinHeight
         headerView.frame = CGRect(x: 0, y: tableView.contentOffset.y, width: tableView.bounds.width, height: headerHeight)
     }
     
