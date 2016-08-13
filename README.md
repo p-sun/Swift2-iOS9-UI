@@ -18,3 +18,14 @@ A tableview where the bottom of the screen below the rows with content is filled
 
 ## UITableView-CompressibleHeaderEffect
 A tableview where the header has a minimum height and a maximum height. Dragging the table allows for a beautiful parallax effect where the header grows and shrinks according to how far down the table is dragged.
+<p align="left">
+  <img src="/_images/CompressibleHeader.png" width="350"/>
+  <img src="/_images/CompressibleHeader2.png" width="350"/>
+  <img src="/_images/CompressibleHeader3.png" width="350"/>
+</p>
+
+## UITableView-RainbowRows
+A tableview where each row is given a different colour reaching all hues of the rainbow.
+<p align="left">
+  <img src="/_images/RainbowRows.png" width="350"/>
+</p>
