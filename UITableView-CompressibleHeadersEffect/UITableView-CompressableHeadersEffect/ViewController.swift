@@ -23,12 +23,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         headerView = tableView.tableHeaderView
+        headerView.clipsToBounds = true
         tableView.tableHeaderView = nil
         tableView.addSubview(headerView)
-        tableView.contentInset = UIEdgeInsetsMake(headerMaxHeight, 0, 0, 0)
+        
+        tableView.contentInset = UIEdgeInsetsMake(headerMaxHeight, 0, 0, 0) // (top, left, bottom, right)
         tableView.contentOffset = CGPoint(x: 0, y: -headerMaxHeight)
-        headerView.clipsToBounds = true
     }
     
     override func viewDidLayoutSubviews() {
@@ -41,14 +43,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func updateHeaderView() {
-        var headerRect = CGRect(x: 0, y: -headerMaxHeight, width: tableView.bounds.width, height: headerMaxHeight)
-        headerRect.origin.y = tableView.contentOffset.y
+        var headerHeight = headerMinHeight
         if tableView.contentOffset.y < -headerMinHeight {
-            headerRect.size.height = -tableView.contentOffset.y
-        } else {
-            headerRect.size.height = headerMinHeight
+            headerHeight = -tableView.contentOffset.y
         }
-        headerView.frame = headerRect
+        headerView.frame = CGRect(x: 0, y: tableView.contentOffset.y, width: tableView.bounds.width, height: headerHeight)
     }
     
     // MARK: - Table view data source
