@@ -21,7 +21,6 @@ A tableview where the header has a minimum height and a maximum height. Dragging
 <p align="left">
   <img src="/_images/CompressibleHeader.png" width="350"/>
   <img src="/_images/CompressibleHeader2.png" width="350"/>
-  <img src="/_images/CompressibleHeader3.png" width="350"/>
 </p>
 
 ## UITableView-RainbowRows
