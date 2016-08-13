@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:UITableView-CompressableHeadersEffect.xcodeproj">
+      location = "self:/Users/psun/Documents/dev/Tutorials/Swift2-UI/UITableView-CompressibleHeadersEffect/UITableView-CompressableHeadersEffect.xcodeproj">
    </FileRef>
 </Workspace>

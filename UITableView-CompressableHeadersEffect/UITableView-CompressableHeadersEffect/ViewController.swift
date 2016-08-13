@@ -11,26 +11,44 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     // MARK: - IBOutlets
+    
     @IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var headerHeight: NSLayoutConstraint!
-
+    
     // MARK - Resizing Header
+    
+    let headerMaxHeight: CGFloat = 330
+    let headerMinHeight: CGFloat = 130
 
-    let headerMinHeight: CGFloat = 140.0
-    let headerMaxHeight: CGFloat = 300.0
+    var headerView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        headerHeight.constant = headerMaxHeight
+        headerView = tableView.tableHeaderView
+        tableView.tableHeaderView = nil
+        tableView.addSubview(headerView)
+        tableView.contentInset = UIEdgeInsetsMake(headerMaxHeight, 0, 0, 0)
+        tableView.contentOffset = CGPoint(x: 0, y: -headerMaxHeight)
+        headerView.clipsToBounds = true
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        self.updateHeaderView()
     }
     
     func scrollViewDidScroll(scrollView: UIScrollView) {
-        //print("offset: \(scrollView.contentOffset.y)")
-        if scrollView.contentOffset.y > headerMaxHeight-headerMinHeight {
-            headerHeight.constant = headerMinHeight
-        } else if scrollView.contentOffset.y > 0 {
-            headerHeight.constant = headerMaxHeight-scrollView.contentOffset.y
+        updateHeaderView()
+    }
+    
+    func updateHeaderView() {
+        var headerRect = CGRect(x: 0, y: -headerMaxHeight, width: tableView.bounds.width, height: headerMaxHeight)
+        headerRect.origin.y = tableView.contentOffset.y
+        if tableView.contentOffset.y < -headerMinHeight {
+            headerRect.size.height = -tableView.contentOffset.y
+        } else {
+            headerRect.size.height = headerMinHeight
         }
+        headerView.frame = headerRect
     }
     
     // MARK: - Table view data source
