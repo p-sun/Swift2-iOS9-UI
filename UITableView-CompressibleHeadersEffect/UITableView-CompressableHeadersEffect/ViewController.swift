@@ -29,6 +29,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.tableHeaderView = nil
         tableView.addSubview(headerView)
         
+        // contentInset sets paddings to increase the default scrollable area.
+        // a.k.a. It set the max values of how far the contentOffset can be go outside of the scrollable area.
+        // e.g. setting the inset = 10 for its top value allows offset’s y value to reach -10
+        // To see an example, change 'left' in the next line to 30 and see what happens!
         tableView.contentInset = UIEdgeInsetsMake(headerMaxHeight, 0, 0, 0) // (top, left, bottom, right)
         tableView.contentOffset = CGPoint(x: 0, y: -headerMaxHeight)
     }
