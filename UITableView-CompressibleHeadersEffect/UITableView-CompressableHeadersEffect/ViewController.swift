@@ -5,6 +5,7 @@
 //  Created by Paige Sun on 2016-08-07.
 //  Copyright © 2016 Paige Sun. All rights reserved.
 //
+//  --- What is contentInset and contentOffset? ---
 //  By default in a tableView, the contentView is the same size as the enclosing scrollView.
 //  contentInset increases the scrollView size by setting paddings around the contentView.
 //  The contentInset sets the max values of how far the contentOffset can be go scroll beyond its default scrollable area.
