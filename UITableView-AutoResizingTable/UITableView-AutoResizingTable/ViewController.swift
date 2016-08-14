@@ -25,7 +25,6 @@ class ViewController: UIViewController {
     func addEmptyFooterView(tableView: UITableView) {
         let frame = CGRect(x: 0, y: 0, width: self.view.bounds.width, height: 0)
         tableView.tableFooterView = UIView(frame: frame)
-        tableView.tableFooterView?.backgroundColor = .clearColor()
     }
     
     // MARK: - Table view data source
