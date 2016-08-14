@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
-        cell.textLabel?.text = "Item \(indexPath.row)"
+        cell.textLabel?.text = "\(indexPath.row)"
         return cell
     }
 
