@@ -5,6 +5,11 @@
 //  Created by Paige Sun on 2016-08-07.
 //  Copyright © 2016 Paige Sun. All rights reserved.
 //
+//  By default in a tableView, the contentView is the same size as the enclosing scrollView.
+//  contentInset increases the scrollView size by setting paddings around the contentView.
+//  The contentInset sets the max values of how far the contentOffset can be go scroll beyond its default scrollable area.
+//  e.g. inset = 10 for the top inset value allows offset’s y value to reach -10
+//  To view an example, change left insets = 30 using UIEdgeInsetsMake(headerMaxHeight, 30, 0, 0)
 
 import UIKit
 
@@ -29,10 +34,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.tableHeaderView = nil
         tableView.addSubview(headerView)
         
-        // contentInset sets paddings to increase the default scrollable area.
-        // a.k.a. It set the max values of how far the contentOffset can be go outside of the scrollable area.
-        // e.g. setting the inset = 10 for its top value allows offset’s y value to reach -10
-        // To see an example, change 'left' in the next line to 30 and see what happens!
         tableView.contentInset = UIEdgeInsetsMake(headerMaxHeight, 0, 0, 0) // (top, left, bottom, right)
         tableView.contentOffset = CGPoint(x: 0, y: -headerMaxHeight)
     }
