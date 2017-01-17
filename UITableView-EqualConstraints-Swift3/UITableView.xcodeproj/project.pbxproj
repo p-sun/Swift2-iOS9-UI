@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		259908271E2E62D90049F902 /* SwitchCellProgramically.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259908261E2E62D90049F902 /* SwitchCellProgramically.swift */; };
+		259908291E2E64740049F902 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259908281E2E64740049F902 /* UIViewExtension.swift */; };
 		25B33B551E296F9500AA50EA /* TwoButtonCellProgramically.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B33B541E296F9500AA50EA /* TwoButtonCellProgramically.swift */; };
 		9B783C7F1CD9466800C39706 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B783C7E1CD9466800C39706 /* AppDelegate.swift */; };
 		9B783C811CD9466800C39706 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B783C801CD9466800C39706 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		259908261E2E62D90049F902 /* SwitchCellProgramically.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCellProgramically.swift; sourceTree = "<group>"; };
+		259908281E2E64740049F902 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		25B33B541E296F9500AA50EA /* TwoButtonCellProgramically.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoButtonCellProgramically.swift; sourceTree = "<group>"; };
 		9B783C7B1CD9466800C39706 /* UITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B783C7E1CD9466800C39706 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,10 +106,12 @@
 				9B783C7E1CD9466800C39706 /* AppDelegate.swift */,
 				9B783C801CD9466800C39706 /* ViewController.swift */,
 				25B33B541E296F9500AA50EA /* TwoButtonCellProgramically.swift */,
+				259908261E2E62D90049F902 /* SwitchCellProgramically.swift */,
 				9B783C821CD9466800C39706 /* Main.storyboard */,
 				9B783C851CD9466800C39706 /* Assets.xcassets */,
 				9B783C871CD9466800C39706 /* LaunchScreen.storyboard */,
 				9B783C8A1CD9466800C39706 /* Info.plist */,
+				259908281E2E64740049F902 /* UIViewExtension.swift */,
 			);
 			path = UITableView;
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				259908291E2E64740049F902 /* UIViewExtension.swift in Sources */,
+				259908271E2E62D90049F902 /* SwitchCellProgramically.swift in Sources */,
 				25B33B551E296F9500AA50EA /* TwoButtonCellProgramically.swift in Sources */,
 				9B783C811CD9466800C39706 /* ViewController.swift in Sources */,
 				9B783C7F1CD9466800C39706 /* AppDelegate.swift in Sources */,

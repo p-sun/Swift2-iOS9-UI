@@ -43,14 +43,27 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             // An experiment to play with StackView Distribution and Alignment of the StackView
             // Alignment - Fill, Distribution - FillEqually
             // This ignores the content hugging priority, even if you set the middle divider's content hugging priority to 1000
-            let cell = tableView.dequeueReusableCell(withIdentifier: "TwoButtonCellExp", for: indexPath)
+            let cell = tableView.dequeueReusableCell(withIdentifier: "TwoButtonCellEqual", for: indexPath)
             return cell
 
         case 3:
             
-            let cell = tableView.dequeueReusableCell(withIdentifier: "SwitchCell", for: indexPath)
-            
+            // A cell with a switch on the right side, using the stock textLabel and accessoryView that comes with the native UITableViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "SwitchCellSimple", for: indexPath)
             return cell
+            
+        case 4:
+            
+            // A cell with a switch on the right side, using a label and a UISwitch constrained to margins
+            let cell = tableView.dequeueReusableCell(withIdentifier: "SwitchCellStack", for: indexPath)
+            return cell
+            
+        case 5:
+            
+            // A cell with a switch on the right side, constrained programically
+            let cell = tableView.dequeueReusableCell(withIdentifier: "SwitchCellProgramically", for: indexPath) as! SwitchCellProgramically
+            return cell
+
         default:
             
             // An empty stack view
@@ -66,4 +79,3 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
 
 }
-

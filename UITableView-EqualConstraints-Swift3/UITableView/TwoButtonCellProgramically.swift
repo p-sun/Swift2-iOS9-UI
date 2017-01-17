@@ -12,12 +12,15 @@ class TwoButtonCellProgramically: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
+        setup()
+    }
+
+    private func setup() {
         let buttons = UIStackView()
         buttons.axis = .horizontal
-
+        
         buttons.translatesAutoresizingMaskIntoConstraints = false // IMPORTANT
-
+        
         let button1 = UIButton()
         button1.backgroundColor = UIColor.lightGray
         let button2 = UIButton()
@@ -38,16 +41,8 @@ class TwoButtonCellProgramically: UITableViewCell {
             buttons.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: 0),
             
             line.widthAnchor.constraint(equalToConstant: 1),
-
+            
             button1.widthAnchor.constraint(equalTo: button2.widthAnchor, multiplier: 1)
             ])
-
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }
