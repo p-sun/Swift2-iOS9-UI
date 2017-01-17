@@ -25,41 +25,41 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TwoButtonCellProgramically" rowHeight="135" id="UA6-Jq-ijG" userLabel="TwoButtonCellProgramically" customClass="TwoButtonCellProgramically" customModule="UITableView" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="135"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TwoButtonCellProgramically" rowHeight="30" id="UA6-Jq-ijG" userLabel="TwoButtonCellProgramically" customClass="TwoButtonCellProgramically" customModule="UITableView" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="30"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UA6-Jq-ijG" id="YmZ-FW-GVh">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="135"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="contentView" destination="YmZ-FW-GVh" id="5hZ-GQ-8Z7"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TwoButtonCell2" rowHeight="135" id="L1T-wA-RKp">
-                                        <rect key="frame" x="0.0" y="163" width="375" height="135"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TwoButtonCell2" rowHeight="29" id="L1T-wA-RKp">
+                                        <rect key="frame" x="0.0" y="58" width="375" height="29"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="L1T-wA-RKp" id="R34-yE-n57">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="135"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="29"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4cd-9K-SJy">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="134.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="28.5"/>
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qur-RT-5d0">
-                                                            <rect key="frame" x="0.0" y="0.0" width="187.5" height="134.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="187.5" height="28.5"/>
                                                             <color key="backgroundColor" red="0.83590739965438843" green="0.94934040307998657" blue="0.95825177431106567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <state key="normal" title="Button1"/>
                                                         </button>
                                                         <view contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="9vs-F9-cN3">
-                                                            <rect key="frame" x="187.5" y="0.0" width="0.5" height="134.5"/>
+                                                            <rect key="frame" x="187.5" y="0.0" width="0.5" height="28.5"/>
                                                             <color key="backgroundColor" red="0.089709706604480743" green="0.65516024827957153" blue="0.70674163103103638" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="0.5" id="uNX-8a-Wbb"/>
                                                             </constraints>
                                                         </view>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMv-79-gRX">
-                                                            <rect key="frame" x="188" y="0.0" width="187" height="134.5"/>
+                                                            <rect key="frame" x="188" y="0.0" width="187" height="28.5"/>
                                                             <color key="backgroundColor" red="0.84026485681533813" green="0.95547705888748169" blue="0.82719719409942627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <state key="normal" title="Button2 Button2"/>
                                                         </button>
@@ -78,30 +78,30 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TwoButtonCellStoryboard2" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TwoButtonCellStoryboard2" rowHeight="135" id="AiE-zO-qA0">
-                                        <rect key="frame" x="0.0" y="298" width="375" height="135"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TwoButtonCellExp" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TwoButtonCellExp" rowHeight="30" id="AiE-zO-qA0">
+                                        <rect key="frame" x="0.0" y="87" width="375" height="30"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AiE-zO-qA0" id="Pch-pl-2dI">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="135"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="gwq-Qr-ZCD">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="134.5"/>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gwq-Qr-ZCD">
+                                                    <rect key="frame" x="0.0" y="0.0" width="150" height="29.5"/>
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PxZ-Xn-mCO">
-                                                            <rect key="frame" x="0.0" y="0.0" width="90.5" height="134.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="50" height="29.5"/>
                                                             <color key="backgroundColor" red="0.83590739970000005" green="0.94934040310000001" blue="0.95825177429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <state key="normal" title="Button1"/>
                                                         </button>
                                                         <view contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="3sK-rs-lsl">
-                                                            <rect key="frame" x="90.5" y="0.0" width="50" height="134.5"/>
+                                                            <rect key="frame" x="50" y="0.0" width="50" height="29.5"/>
                                                             <color key="backgroundColor" red="0.089709706599999994" green="0.65516024829999997" blue="0.70674163099999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="1" id="oa0-JQ-sFm"/>
+                                                                <constraint firstAttribute="width" constant="5" id="oa0-JQ-sFm"/>
                                                             </constraints>
                                                         </view>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yz2-U4-PEh">
-                                                            <rect key="frame" x="140.5" y="0.0" width="234.5" height="134.5"/>
+                                                            <rect key="frame" x="100" y="0.0" width="50" height="29.5"/>
                                                             <color key="backgroundColor" red="0.65515786409999999" green="0.66173404459999996" blue="0.92840212580000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <state key="normal" title="Button2 Button2"/>
                                                         </button>
@@ -117,15 +117,15 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TwoButtonCell3" rowHeight="135" id="WM0-Bo-3ZC">
-                                        <rect key="frame" x="0.0" y="433" width="375" height="135"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SingleStackView" rowHeight="32" id="WM0-Bo-3ZC" userLabel="SingleStackView">
+                                        <rect key="frame" x="0.0" y="117" width="375" height="32"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WM0-Bo-3ZC" id="OGZ-yX-H2j">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="135"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="32"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zht-CZ-rcf">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="135"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="31.5"/>
                                                     <color key="backgroundColor" red="0.45104873180389404" green="0.90716928243637085" blue="0.90937411785125732" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </stackView>
                                             </subviews>
@@ -134,6 +134,26 @@
                                                 <constraint firstAttribute="trailing" secondItem="zht-CZ-rcf" secondAttribute="trailing" id="hB9-gq-mV3"/>
                                                 <constraint firstItem="zht-CZ-rcf" firstAttribute="top" secondItem="OGZ-yX-H2j" secondAttribute="top" id="r6h-dO-H2f"/>
                                                 <constraint firstItem="zht-CZ-rcf" firstAttribute="leading" secondItem="OGZ-yX-H2j" secondAttribute="leading" id="zNa-BY-eiw"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SwitchCell" rowHeight="29" id="bkq-E7-9Sk">
+                                        <rect key="frame" x="0.0" y="149" width="375" height="29"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bkq-E7-9Sk" id="987-yJ-qNy">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="29"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CpQ-lm-Iow">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="28.5"/>
+                                                    <color key="backgroundColor" red="0.45104873179999999" green="0.90716928240000005" blue="0.9093741179" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="CpQ-lm-Iow" firstAttribute="top" secondItem="987-yJ-qNy" secondAttribute="top" id="EGy-hH-Sje"/>
+                                                <constraint firstAttribute="trailing" secondItem="CpQ-lm-Iow" secondAttribute="trailing" id="FOW-y2-1oo"/>
+                                                <constraint firstAttribute="bottom" secondItem="CpQ-lm-Iow" secondAttribute="bottom" id="J46-Mm-kkU"/>
+                                                <constraint firstItem="CpQ-lm-Iow" firstAttribute="leading" secondItem="987-yJ-qNy" secondAttribute="leading" id="XyR-xx-9P7"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>

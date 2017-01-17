@@ -14,9 +14,6 @@ class TwoButtonCellProgramically: UITableViewCell {
         super.awakeFromNib()
         
         let buttons = UIStackView()
-//        buttons.distribution = .fill
-//        buttons.alignment = .fill
-//        buttons.spacing = 0
         buttons.axis = .horizontal
 
         buttons.translatesAutoresizingMaskIntoConstraints = false // IMPORTANT

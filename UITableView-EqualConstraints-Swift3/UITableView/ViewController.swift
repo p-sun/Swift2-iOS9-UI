@@ -13,8 +13,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     // MARK: - IBOutlets
     @IBOutlet weak var tableView: UITableView!
 
-    let data = ["Item 1", "Item 2", "Item 3", "Item 4"]
-
     // MARK: - Table view data source
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -22,7 +20,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return data.count
+        return 15
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -42,13 +40,26 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
         case 2:
             
-            let cell = tableView.dequeueReusableCell(withIdentifier: "TwoButtonCellStoryboard2", for: indexPath)
+            // An experiment to play with StackView Distribution and Alignment of the StackView
+            // Alignment - Fill, Distribution - FillEqually
+            // This ignores the content hugging priority, even if you set the middle divider's content hugging priority to 1000
+            let cell = tableView.dequeueReusableCell(withIdentifier: "TwoButtonCellExp", for: indexPath)
             return cell
 
+        case 3:
+            
+            let cell = tableView.dequeueReusableCell(withIdentifier: "SwitchCell", for: indexPath)
+            
+            return cell
         default:
             
+            // An empty stack view
             // To see if you have a Stackview constrainted correctly, you can use the Debug View Hierachy, but you cannot see it by setting a background color on the StackView
-            let cell = tableView.dequeueReusableCell(withIdentifier: "TwoButtonCell3", for: indexPath)
+            let cell = tableView.dequeueReusableCell(withIdentifier: "SingleStackView", for: indexPath)
+            cell.textLabel?.backgroundColor = UIColor.orange
+            cell.textLabel?.text = "Here is a long piece of text that goes on and on and on. Here is a long piece of text that goes on and on and on. Here is a long piece of text that goes on and on and on. Here is a long piece of text that goes on and on and on. Here is a long piece of text that goes on and on and on."
+            cell.textLabel?.numberOfLines = 0
+            cell.accessoryView = UISwitch()
             return cell
         }
 
