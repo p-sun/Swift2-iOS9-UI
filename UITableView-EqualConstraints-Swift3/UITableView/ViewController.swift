@@ -50,6 +50,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
             // A cell with a switch on the right side, using the stock textLabel and accessoryView that comes with the native UITableViewCell
             let cell = tableView.dequeueReusableCell(withIdentifier: "SwitchCellSimple", for: indexPath)
+            cell.textLabel?.text = "Here is a long piece of text that goes on and on and on. Here is a long piece of text that goes on and on"
+            cell.textLabel?.numberOfLines = 0
+            cell.accessoryView = UISwitch()
             return cell
             
         case 4:
@@ -64,15 +67,21 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             let cell = tableView.dequeueReusableCell(withIdentifier: "SwitchCellProgramically", for: indexPath) as! SwitchCellProgramically
             return cell
 
+        case 6:
+            
+            let cell = tableView.dequeueReusableCell(withIdentifier: "AccessoryViewCell", for: indexPath)
+            return cell
+            
+        case 7:
+
+            let cell = tableView.dequeueReusableCell(withIdentifier: "LeftAccessoryCell", for: indexPath)
+            return cell
+
         default:
             
             // An empty stack view
             // To see if you have a Stackview constrainted correctly, you can use the Debug View Hierachy, but you cannot see it by setting a background color on the StackView
             let cell = tableView.dequeueReusableCell(withIdentifier: "SingleStackView", for: indexPath)
-            cell.textLabel?.backgroundColor = UIColor.orange
-            cell.textLabel?.text = "Here is a long piece of text that goes on and on and on. Here is a long piece of text that goes on and on and on. Here is a long piece of text that goes on and on and on. Here is a long piece of text that goes on and on and on. Here is a long piece of text that goes on and on and on."
-            cell.textLabel?.numberOfLines = 0
-            cell.accessoryView = UISwitch()
             return cell
         }
 
