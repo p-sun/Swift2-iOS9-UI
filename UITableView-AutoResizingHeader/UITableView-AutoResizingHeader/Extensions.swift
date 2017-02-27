@@ -9,20 +9,20 @@
 import Foundation
 import UIKit
 
-extension UIViewController {
+extension UITableView {
     
     /** Resize a tableView header to according to the auto layout of its contents. 
         - This method can resize a headerView according to changes in a dynamically set text label. Simply place this method inside viewDidLayoutSubviews.
         - To animate constrainsts, wrap a tableview.beginUpdates and .endUpdates, followed by a UIView.animateWithDuration block around constraint changes.
      */
-    func sizeHeaderToFit(tableView: UITableView) {
-        if let headerView = tableView.tableHeaderView {
-            let height = headerView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize).height
-            var frame = headerView.frame
-            frame.size.height = height
-            headerView.frame = frame
-            tableView.tableHeaderView = headerView
-            headerView.setNeedsLayout()
+    func sizeHeaderToFit() {
+        if let headerView = self.tableHeaderView {
+            let height = headerView.systemLayoutSizeFitting(UILayoutFittingCompressedSize).height
+            
+            var newFrame = headerView.frame
+            newFrame.size.height = height
+            headerView.frame = newFrame
+            
             headerView.layoutIfNeeded()
         }
     }

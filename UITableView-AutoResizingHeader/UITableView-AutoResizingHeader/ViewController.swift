@@ -16,28 +16,28 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
         // Simply set this label's lines to 0
     
-    @IBAction func addMoreText(sender: AnyObject) {
+    @IBAction func addMoreText(_ sender: AnyObject) {
         self.label.text = self.label.text! + "\nThis header can dynamically resize according to its contents."
     }
     
     override func viewDidLayoutSubviews() {
         // viewDidLayoutSubviews is called when labels change.
         super.viewDidLayoutSubviews()
-        sizeHeaderToFit(tableView)
+        tableView.sizeHeaderToFit()
     }
     
     // Make button taller and resize header with animation.
 
     @IBOutlet weak var makeThisTallerHeight: NSLayoutConstraint!
     
-    @IBAction func makeThisTaller(sender: AnyObject) {
+    @IBAction func makeThisTaller(_ sender: AnyObject) {
         // Animated
-        UIView.animateWithDuration(0.3) {
+        UIView.animate(withDuration: 0.3, animations: {
             self.tableView.beginUpdates()
             self.makeThisTallerHeight.constant += 20
-            self.sizeHeaderToFit(self.tableView)
+            self.tableView.sizeHeaderToFit()
             self.tableView.endUpdates()
-        }
+        }) 
         
         // Non-Animated
 //        self.makeThisTallerHeight.constant += 20
