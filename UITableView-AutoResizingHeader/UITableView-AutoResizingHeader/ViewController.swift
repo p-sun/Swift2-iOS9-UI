@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         
         // Non-Animated
 //        self.makeThisTallerHeight.constant += 20
-//        self.sizeHeaderToFit(self.tableView)
+//        self.tableView.sizeHeaderToFit()
     }
     
 }
