@@ -10,8 +10,9 @@ import UIKit
 import SafariServices
 
 class ViewController: UIViewController {
+    let url = URL(string: "https://www.shopify.ca")!
+
     @IBAction func sfSafariTapped(_ sender: Any) {
-        let url = URL(string: "https://www.shopify.ca")!
         let safari = SFSafariViewController(url: url)
         safari.title = "Shopify"
         safari.delegate = self
@@ -19,9 +20,16 @@ class ViewController: UIViewController {
     }
     
     @IBAction func safariTapped(_ sender: Any) {
+        let safariController = SafariViewController(safariDelegate: self, safariTitle: "Shopify", url: url)
+        present(safariController, animated: true) {}
     }
 }
 
 extension ViewController: SFSafariViewControllerDelegate {
 }
 
+extension ViewController: SafariViewControllerDelegate {
+    func safariControllerDidFinish(_ controller: SafariViewController) {
+        print("safari did finish")
+    }
+}

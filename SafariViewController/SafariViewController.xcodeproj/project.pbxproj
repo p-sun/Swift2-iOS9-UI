@@ -14,6 +14,8 @@
 		25B891A41E6CC1EC00FDCB33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B891A21E6CC1EC00FDCB33 /* LaunchScreen.storyboard */; };
 		25B891AF1E6CC1EC00FDCB33 /* SafariViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B891AE1E6CC1EC00FDCB33 /* SafariViewControllerTests.swift */; };
 		25B891BA1E6CC1EC00FDCB33 /* SafariViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B891B91E6CC1EC00FDCB33 /* SafariViewControllerUITests.swift */; };
+		25B891C81E6CC94F00FDCB33 /* SafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B891C71E6CC94F00FDCB33 /* SafariViewController.swift */; };
+		25B891CA1E6CCDA900FDCB33 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B891C91E6CCDA900FDCB33 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		25B891B51E6CC1EC00FDCB33 /* SafariViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B891B91E6CC1EC00FDCB33 /* SafariViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewControllerUITests.swift; sourceTree = "<group>"; };
 		25B891BB1E6CC1EC00FDCB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25B891C71E6CC94F00FDCB33 /* SafariViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
+		25B891C91E6CCDA900FDCB33 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				25B891991E6CC1EC00FDCB33 /* AppDelegate.swift */,
 				25B8919B1E6CC1EC00FDCB33 /* ViewController.swift */,
+				25B891C71E6CC94F00FDCB33 /* SafariViewController.swift */,
+				25B891C91E6CCDA900FDCB33 /* UIView+Extensions.swift */,
 				25B8919D1E6CC1EC00FDCB33 /* Main.storyboard */,
 				25B891A01E6CC1EC00FDCB33 /* Assets.xcassets */,
 				25B891A21E6CC1EC00FDCB33 /* LaunchScreen.storyboard */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				25B8919C1E6CC1EC00FDCB33 /* ViewController.swift in Sources */,
+				25B891C81E6CC94F00FDCB33 /* SafariViewController.swift in Sources */,
+				25B891CA1E6CCDA900FDCB33 /* UIView+Extensions.swift in Sources */,
 				25B8919A1E6CC1EC00FDCB33 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +513,7 @@
 				25B891C01E6CC1EC00FDCB33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25B891C11E6CC1EC00FDCB33 /* Build configuration list for PBXNativeTarget "SafariViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				25B891C31E6CC1EC00FDCB33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25B891C41E6CC1EC00FDCB33 /* Build configuration list for PBXNativeTarget "SafariViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				25B891C61E6CC1EC00FDCB33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
