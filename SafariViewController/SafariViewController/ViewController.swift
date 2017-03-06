@@ -26,10 +26,15 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: SFSafariViewControllerDelegate {
+    func safariViewController(_ controller: SFSafariViewController, didCompleteInitialLoad didLoadSuccessfully: Bool) {
+        if !didLoadSuccessfully {
+            print("issue loading safari")
+        }
+    }
 }
 
 extension ViewController: SafariViewControllerDelegate {
     func safariControllerDidFinish(_ controller: SafariViewController) {
-        print("safari did finish")
+        print("safariControllerDidFinish")
     }
 }

@@ -14,10 +14,10 @@ protocol SafariViewControllerDelegate: class {
 }
 
 class SafariViewController: UINavigationController {
-    fileprivate weak var safariDelegate: SafariViewControllerDelegate?
     fileprivate var safariTitle: String!
     fileprivate var url: URL!
     
+    fileprivate weak var safariDelegate: SafariViewControllerDelegate?
     fileprivate weak var spinner = UIActivityIndicatorView(activityIndicatorStyle: .gray)
     
     init(safariDelegate: SafariViewControllerDelegate, safariTitle: String = "", url: URL) {
@@ -72,14 +72,14 @@ extension SafariViewController {
 }
 
 extension SafariViewController: SFSafariViewControllerDelegate {
-    func safwariViewController(_ controller: SFSafariViewController, didCompleteInitialLoad didLoadSuccessfully: Bool) {
+    func safariViewController(_ controller: SFSafariViewController, didCompleteInitialLoad didLoadSuccessfully: Bool) {
         spinner?.isHidden = true
-        if didLoadSuccessfully {
-        } else {
+        if !didLoadSuccessfully {
             print("Please check your network connections")
         }
     }
+    
     func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
-        print("safarai finished")
+        print("SF Safari never calls this b/c this is for the default Done button that we hide here under a custom UINavigationBar")
     }
 }
