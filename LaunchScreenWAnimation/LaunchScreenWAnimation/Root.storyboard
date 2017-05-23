@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="RPi-lg-DXJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="v7u-2v-kG0">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="RPi-lg-DXJ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8qo-7x-dlQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="AZh-8I-qLV" kind="relationship" relationship="rootViewController" id="Dyg-bU-yzs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vxl-tA-t0v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-487" y="162"/>
+        </scene>
+        <!--Splash Screen View Controller-->
+        <scene sceneID="5Ly-2w-kz4">
+            <objects>
+                <viewController id="AZh-8I-qLV" customClass="SplashScreenViewController" customModule="LaunchScreenWAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E1b-vw-Rda"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ff1-mv-rHH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8BX-QG-l7u">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bER-gN-ddo">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <connections>
+                                    <segue destination="DgA-NO-9xF" kind="embed" identifier="EmbedLaunch" id="Stz-rp-WKP"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ff1-mv-rHH" firstAttribute="top" secondItem="bER-gN-ddo" secondAttribute="bottom" id="3XE-Iy-JZe"/>
+                            <constraint firstItem="bER-gN-ddo" firstAttribute="top" secondItem="8BX-QG-l7u" secondAttribute="topMargin" id="YY6-d1-S0U"/>
+                            <constraint firstItem="bER-gN-ddo" firstAttribute="leading" secondItem="8BX-QG-l7u" secondAttribute="leading" id="iYE-5R-BHc"/>
+                            <constraint firstAttribute="trailing" secondItem="bER-gN-ddo" secondAttribute="trailing" id="qPR-2j-OGf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="iIs-vM-WE2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IqG-W9-au7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="327" y="161"/>
+        </scene>
+        <!--LaunchScreen-->
+        <scene sceneID="mcv-Eb-hNf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="LaunchScreen" id="DgA-NO-9xF" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x2K-Q6-kQh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="932" y="161"/>
+        </scene>
+    </scenes>
+</document>
